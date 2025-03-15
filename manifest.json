@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "simple-ad-blocker",
+    "version": "1.0.0",
+    "description": "Simple Ad Blocker Chrome Extension",
+    "icons": {
+        "16": "./ad-blocker.png",
+        "32": "./ad-blocker.png",
+        "48": "./ad-blocker.png",
+        "128":"./ad-blocker.png"
+      },
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "block-ads.js"
+    }
+}
