@@ -10,17 +10,15 @@ This is a **lightweight ad blocker** for Chrome that blocks ads based on a prede
 
 ## Installation Guide
 ### Step 1: Download or Clone the Repository
-You can either clone the repository using Git or download the ZIP file:
+You can either clone the repository using Git or download the ZIP file and extract it:
 
 ```sh
 git clone https://github.com/ixshayy/simple-ad-blocker.git
 ```
 
-Or download the ZIP and extract it.
-
 ### Step 2: Load the Extension in Chrome
 1. Open **Google Chrome**.
-2. Go to **chrome://extensions/** in the address bar.
+2. Go to `chrome://extensions/` in the address bar.
 3. Enable **Developer Mode** (toggle switch in the top-right corner).
 4. Click **Load unpacked** and select the **extracted folder** (where `manifest.json` is located).
 5. The extension will now be installed and active.
