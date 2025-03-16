@@ -13337,5 +13337,6 @@ var ads_list = [
   "rt.udmserve.net",
   "www.stickylogic.com",
   "www.winadiscount.com",
-  "www.winaproduct.com"
+  "www.winaproduct.com", 
+  "*://*getrunkhomuto.info/*"
 ]
